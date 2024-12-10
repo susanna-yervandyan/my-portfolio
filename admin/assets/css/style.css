@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Form styles */
+form {
+    background-color: white;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px; /* Set a max width for the form */
+    margin: 20px auto; /* Center the form horizontally */
+}
+
+/* Form Input and Button */
+input[type="text"], input[type="password"], button {
+    padding: 5px;  /* Smaller padding for compact form */
+    margin: 10px 0;  /* Margin between input fields */
+    font-size: 12px;  /* Smaller font size */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;  /* Full width for inputs */
+    box-sizing: border-box;  /* Include padding and border in element's total width */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+table caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #934caf;
+    color: white;
+}
+
+td {
+    background-color: #fafafa;
+}
+
+td[contenteditable] {
+    background-color: #fff7d1;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    background-color: #934caf;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #934caf;
+}
+
+.btn_del {
+    background-color: #d9534f;
+}
+
+.btn_del:hover {
+    background-color: #c9302c;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    margin: 0 10px;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 10px 20px 0;
+}
+
+#p_mess {
+    color: pe;
+    font-weight: bold;
+}

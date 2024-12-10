@@ -1,0 +1,353 @@
+/* Reset margins and paddings for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background styling */
+body {
+    background-image: url('../image/my_background_image1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header styling */
+header {
+    background-color: #934caf;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+/* Header content styling */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Logo styling*/
+.logo {
+    height: 50px;
+}
+
+/* Button styling in header */
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-buttons .button {
+    background-color: #934caf;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.header-buttons .button:hover {
+    background-color: #7d3c99;
+}
+
+.welcome-message {
+    text-align: center;
+    color: white;
+    flex-grow: 1;
+}
+
+/* Main heading styling */
+h1 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Link list styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #934caf;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: #333;
+}
+
+/* Product grid and card styling */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Product details */
+.product-name {
+    color: #333;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-card .product-description {
+    color: #666 !important;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.product-card .product-price {
+    color: #934caf !important;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Back button styling */
+.back-button {
+    display: inline-block;
+    background-color: #934caf;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.back-button:hover {
+    background-color: #7d3c99;
+}
+
+/* Category grid and card styling */
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.category-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #934caf;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.category-card a:hover {
+    background-color: #7d3c99;
+}
+
+/* Error and success message styling */
+p {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+/* Form styling */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #934caf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7d3c99;
+}
+
+/* Basket button styling */
+.header-buttons .basket {
+    font-size: 18px;
+}
+
+.header-buttons .basket:hover {
+    background-color: #7d3c99;
+}
+
+.logo-container {
+    margin-right: auto;
+}
+
+.category-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+table {
+    width: 70%; /* or use a fixed value like 600px */
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+}
+
+table th {
+    background-color: #934caf;
+    color: white;
+}
+
+table tr:hover {
+    background-color: rgba(147, 76, 175, 0.1);
+}
+
+.td_name, .td_desc {
+    color: #333;
+    font-weight: 500;
+}
+
+.td_desc {
+    max-width: 200px; /* Adjust as needed */
+    max-height: 50px; /* Adjust to the height you prefer */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal; /* Allows wrapping */
+}
+
+button.minus, button.plus {
+    background-color: #934caf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+button.minus:hover, button.plus:hover {
+    background-color: #7d3c99;
+}
+
+button.btn_remove {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.btn_remove:hover {
+    background-color: #c0392b;
+}
+
+button.order {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.order:hover {
+    background-color: darkred;
+}
+
+.total {
+    font-weight: bold;
+    color: #934caf;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #630a3f;
+}
+
+body {
+    background-color: yellow;
+}
